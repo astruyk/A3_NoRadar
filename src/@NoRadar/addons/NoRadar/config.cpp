@@ -1,60 +1,61 @@
 class CfgPatches
 {
-    class NoRadar
-    {
-        units[] = {
-			"B_Heli_Light_01_F_NORADAR",
-			"B_Heli_Light_01_armed_F_NORADAR",
-			"O_Heli_Light_02_F_NORADAR",
-			"O_Heli_Light_02_unarmed_F_NORADAR",
-			"B_Heli_Attack_01_F_NORADAR",
-			"O_Heli_Attack_02_F_NORADAR",
-			"O_Heli_Attack_02_black_F_NORADAR",
-			"B_Heli_Transport_01_F_NORADAR",
-			"B_Heli_Transport_01_camo_F_NORADAR",
-			"I_Heli_Transport_02_F_NORADAR",
-			"I_Heli_light_03_F_NORADAR",
-			"I_Heli_light_03_unarmed_F_NORADAR",
-			"I_Plane_Fighter_03_CAS_F_NORADAR",
-			"I_Plane_Fighter_03_AA_F_NORADAR",
-			"B_APC_Tracked_01_rcws_F_NORADAR",
-			"B_APC_Tracked_01_CRV_F_NORADAR",
-			"B_APC_Tracked_01_AA_F_NORADAR",
-			"O_APC_Tracked_02_cannon_F_NORADAR",
-			"O_APC_Tracked_02_AA_F_NORADAR",
-			"I_APC_tracked_03_cannon_F_NORADAR",
-			"I_MBT_03_cannon_F_NORADAR",
-			"B_MBT_01_cannon_F_NORADAR",
-			"B_MBT_01_arty_F_NORADAR",
-			"B_MBT_01_mlrs_F_NORADAR",
-			"O_MBT_02_cannon_F_NORADAR",
-			"O_MBT_02_arty_F_NORADAR",
-			"B_UAV_01_F_NORADAR",
-			"O_UAV_01_F_NORADAR",
-			"I_UAV_01_F_NORADAR",
-			"B_UAV_02_F_NORADAR",
-			"O_UAV_02_F_NORADAR",
-			"I_UAV_02_F_NORADAR",
-			"B_UAV_02_CAS_F_NORADAR",
-			"O_UAV_02_CAS_F_NORADAR",
-			"I_UAV_02_CAS_F_NORADAR",
-			"B_MBT_01_TUSK_F_NORADAR"
+	class NoRadar
+	{
+		units[] = {
+				"B_Heli_Light_01_F_NORADAR",
+				"B_Heli_Light_01_armed_F_NORADAR",
+				"O_Heli_Light_02_F_NORADAR",
+				"O_Heli_Light_02_unarmed_F_NORADAR",
+				"B_Heli_Attack_01_F_NORADAR",
+				"O_Heli_Attack_02_F_NORADAR",
+				"O_Heli_Attack_02_black_F_NORADAR",
+				"B_Heli_Transport_01_F_NORADAR",
+				"B_Heli_Transport_01_camo_F_NORADAR",
+				"I_Heli_Transport_02_F_NORADAR",
+				"I_Heli_light_03_F_NORADAR",
+				"I_Heli_light_03_unarmed_F_NORADAR",
+				"I_Plane_Fighter_03_CAS_F_NORADAR",
+				"I_Plane_Fighter_03_AA_F_NORADAR",
+				"B_APC_Tracked_01_rcws_F_NORADAR",
+				"B_APC_Tracked_01_CRV_F_NORADAR",
+				"B_APC_Tracked_01_AA_F_NORADAR",
+				"O_APC_Tracked_02_cannon_F_NORADAR",
+				"O_APC_Tracked_02_AA_F_NORADAR",
+				"I_APC_tracked_03_cannon_F_NORADAR",
+				"I_MBT_03_cannon_F_NORADAR",
+				"B_MBT_01_cannon_F_NORADAR",
+				"B_MBT_01_arty_F_NORADAR",
+				"B_MBT_01_mlrs_F_NORADAR",
+				"O_MBT_02_cannon_F_NORADAR",
+				"O_MBT_02_arty_F_NORADAR",
+				"B_UAV_01_F_NORADAR",
+				"O_UAV_01_F_NORADAR",
+				"I_UAV_01_F_NORADAR",
+				"B_UAV_02_F_NORADAR",
+				"O_UAV_02_F_NORADAR",
+				"I_UAV_02_F_NORADAR",
+				"B_UAV_02_CAS_F_NORADAR",
+				"O_UAV_02_CAS_F_NORADAR",
+				"I_UAV_02_CAS_F_NORADAR",
+				"B_MBT_01_TUSK_F_NORADAR"
 			};
-        weapons[] = {};
-        requiredVersion = 1;
-        requiredAddons[] = {
-			"A3_Armor_F",
-			"A3_Armor_F_Panther",
-			"A3_armor_f_beta_APC_Tracked_02",
-			"A3_Armor_F_Slammer",
-			"A3_Armor_F_T100K",
-			"A3_Air_F_Gamma_UAV_01",
-			"A3_Air_F_Gamma_UAV_02",
-			"A3_Armor_F_AMV",
-			"A3_Armor_F_Marid",
-			"A3_Armor_F_APC_Wheeled_03",
-			"A3_Soft_F_Crusher_UGV",
-			"A3_Armor_F_EPC_MBT_01"
+		
+		weapons[] = {};
+		requiredVersion = 1;
+		requiredAddons[] = {
+				"A3_Armor_F",
+				"A3_Armor_F_Panther",
+				"A3_armor_f_beta_APC_Tracked_02",
+				"A3_Armor_F_Slammer",
+				"A3_Armor_F_T100K",
+				"A3_Air_F_Gamma_UAV_01",
+				"A3_Air_F_Gamma_UAV_02",
+				"A3_Armor_F_AMV",
+				"A3_Armor_F_Marid",
+				"A3_Armor_F_APC_Wheeled_03",
+				"A3_Soft_F_Crusher_UGV",
+				"A3_Armor_F_EPC_MBT_01"
 			};
     };
 };
