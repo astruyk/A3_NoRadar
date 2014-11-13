@@ -1,6 +1,6 @@
 class CfgPatches
 {
-    class JTF2_NORADAR
+    class NoRadar
     {
         units[] = {
 			"B_Heli_Light_01_F_NORADAR",
